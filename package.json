@@ -1,0 +1,19 @@
+{
+  "name": "sdc-workflow-reporter",
+  "version": "0.0.1",
+  "description": "Command line tool to report jobs executed in SDC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonyvia/sdc-workflow-reporter.git"
+  },
+  "author": "AnthonyVia",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "0.0.8",
+    "async": "^1.5.2",
+    "bunyan": "^1.8.0",
+    "command-line-args": "^2.1.6",
+    "nodemailer": "^2.3.0"
+  }
+}
